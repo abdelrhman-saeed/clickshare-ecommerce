@@ -5,6 +5,7 @@
 
 <div class="fh w-75 rounded mt-5 m-auto p-5 default-bg-secondary">
 
+    <h3> Products: {{$products->count()}} </h3>
     <a href="{{route('products.create')}}" class="btn default-bg px-4 my-2 text-light text-decoration-none"> Add </a>
 
     <div class="row justify-content-between">

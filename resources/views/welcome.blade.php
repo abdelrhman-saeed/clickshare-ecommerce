@@ -13,15 +13,17 @@
                 </p>
                 <!-- /message -->
 
-                <!-- buttons -->
-                <div class="buttons row text-center">
+                @guest
+                    <!-- buttons -->
+                    <div class="buttons row text-center">
 
-                    <a class="w-25 py-3 global-button text-decoration-none text-light fw-bold rounded border-0"
-                        href="{{ route('signing') }}"> Log in <span class="text-light mx-4">|</span> Register
-                    </a>
+                        <a class="w-25 py-3 global-button text-decoration-none text-light fw-bold rounded border-0"
+                            href="{{ route('signing') }}"> Log in <span class="text-light mx-4">|</span> Register
+                        </a>
 
-                </div>
-                <!-- /buttons -->
+                    </div>
+                    <!-- /buttons -->
+                @endguest
             </div>
             <!-- /left side -->
         </div>
