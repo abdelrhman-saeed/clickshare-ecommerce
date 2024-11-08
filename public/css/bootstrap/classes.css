@@ -1,0 +1,22 @@
+html, body
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.fh { height: 100%; }
+
+
+.default-bg    { background-color: #13bda1; }
+.default-color { color: #13bda1; }
+.default-border-color { border-color: #13bda1 !important; }
+.default-bg-secondary { background-color: #f2f5f5; }
+
+.global-button {
+    background-color: #13bda1;
+}
+
+body {
+    font-family: sans-serif;
+}
